@@ -1,2 +1,4 @@
-# World_Weather_Analysis
-Utilize APIs to retrieve weather data
+# World Weather Analysis
+## Overview
+### Purpose 
+PlanMyTrip, a travel company, desires to collect weather data from over 500 cities in the world to provide real-time suggestions of ideal travel hotel destinations for their customers via a search page. To allow customers to filter their search based on preferred travel criteria, I utilized OpenWeatherMap API to retrieve the following: latitude and longitude of the hotel, maximum temperature, percent humidity, percent cloudiness, wind speed, and an overall weather description. I then analyzed the relationship between the weather parameters using Google Maps API and successfully generated a marker layer map with pop-up markers for each of the hotels within the assessed cities. Additionally, PlanMyTrip desires to help customers plan their vacation using Google Maps. To create a travel route between different cities the customer chose based on weather preferences, I utilized Google Maps Directions API to generate a directions layer map. 
